@@ -93,9 +93,9 @@ export default function Home() {
           </div>
           
           <SkillHorizontalScroll>
-            {selectedCategory !== '' ? skills.filter((skill: any) => skill.categories.includes(selectedCategory)).map((skill: any) => (
+            {selectedCategory !== '' ? skills.filter((skill: {id: number, title: string, bgColor: string, image: string, categories: string[]}) => skill.categories.includes(selectedCategory)).map((skill: {id: number, title: string, bgColor: string, image: string}) => (
               <SkillCard key={skill.id} title={skill.title} bgColor={skill.bgColor} image={skill.image} />
-            )) : skills.map((skill: any) => (
+            )) : skills.map((skill: {id: number, title: string, bgColor: string, image: string}) => (
               <SkillCard key={skill.id} title={skill.title} bgColor={skill.bgColor} image={skill.image} />
             ))}
           </SkillHorizontalScroll>
@@ -103,16 +103,16 @@ export default function Home() {
         <section className="text-white px-32" id="experience">
           <h2 className="text-[64px] font-bold my-8"><span className="text-gray-500">/</span> Experience</h2>
           <ExperienceContainer>
-            {experience.map((job: any) => (
+            {experience.map((job: { id: number, title: string, company: string, description: string }) => (
               <ExperienceCard 
                 key={job.id} 
                 jobTitle={job.title} 
                 companyName={job.company} 
                 description={
                   <>
-                    {job.description.split('\n').map(((paragraph: string) => (
-                      <p>{paragraph}</p>
-                    )))}
+                    {job.description.split('\n').map((paragraph: string, index: number) => (
+                      <p key={index}>{paragraph}</p>
+                    ))}
                   </>
                 }/>
             ))}

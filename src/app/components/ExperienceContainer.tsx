@@ -7,7 +7,7 @@ export const ExperienceContainer = ({ children }: { children: React.ReactNode[] 
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full border-l-2 border-gray-300"></div>
       
       <div className="space-y-12">
-        {children.map((child: any, index: number) => {
+        {children.map((child: React.ReactNode, index: number) => {
           const isEven = index % 2 === 1; // Para la segunda tarjeta, cuarta, etc.
           return (
             <div key={index} className="relative flex items-center">
