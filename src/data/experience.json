@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Machine Learning Engineer",
+        "company": "ecaptureDtech",
+        "description": "During my time as a Machine Learning Engineer at ecaptureDtech, I trained computer vision models and object tracking in videos recorded in motion for deployment in production. A notable achievement was assembling and modernizing a backend without documentation or prior team knowledge, successfully migrating it to a microservices-based architecture."
+    },
+    {
+        "id": 2,
+        "title": "Technical Consultant",
+        "company": "Leyton Iberia",
+        "description": "My current experience as a technical consultant in R&D has strengthened my skills in documenting and communicating technological projects—key competencies in the field of Machine Learning. By drafting documentation for tax deductions, I have gained a deep understanding of innovation and development processes, as well as efficient resource management in complex projects. This experience enables me to approach problems from a comprehensive perspective, aligning Machine Learning solutions with strategic objectives and ensuring regulatory compliance, which is essential for success in production environments."
+    }
+]
