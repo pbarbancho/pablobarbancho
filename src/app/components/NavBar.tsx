@@ -23,8 +23,8 @@ export const Navbar = () => {
                         <Link href="#experience">
                             <p className="px-3 py-2 rounded-md hover:text-gray-400">Experience</p>
                         </Link>
-                        <Link href="#projects">
-                            <p className="px-3 py-2 rounded-md hover:text-gray-400">Projects</p>
+                        <Link href="#certifications">
+                            <p className="px-3 py-2 rounded-md hover:text-gray-400">Certifications</p>
                         </Link>
                         <Link href="#contact">
                             <p className="px-3 py-2 rounded-md hover:text-gray-400">Contact</p>

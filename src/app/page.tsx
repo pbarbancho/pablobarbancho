@@ -118,12 +118,22 @@ export default function Home() {
             ))}
           </ExperienceContainer>
         </section>
-        <section className="px-32" id="projects">
-          <h2 className="text-[64px] font-bold my-8"><span className="text-gray-500">/</span> Projects</h2>
-          <h3 className="text-[32px] italic px-32">Coming soon...</h3>
+        <section className="px-32" id="certifications">
+          <h2 className="text-[64px] font-bold my-8"><span className="text-gray-500">/</span> Certifications</h2>
+          <div className="flex flex-row items-center justify-left rounded-lg p-16 bg-card bg-opacity-25 shadow-bl-custom w-fit mx-auto space-x-8">
+            <Image src='/icons/datacamp.png' width={150} height={150} alt="DataCamp" />
+            <div>
+              <h3 className="text-[32px] font-bold">Python Data Associate</h3>
+              
+                <a href="https://www.datacamp.com/certificate/PDA0014439385269" target="_blank" rel="noopener noreferrer" className="italic my-4">
+                  <p className="italic">DataCamp <span className="select-none text-[12px]">🔗</span></p>
+                </a>
+              <p>As a certified Python Data Associate, I have demonstrated my expertise in data management and exploratory analysis through rigorous exams and a practical project. This certification confirms my ability to use Python for effective data analysis, equipping me with the skills necessary for data analyst roles.</p>
+            </div>
+          </div>
         </section>
         <section className="px-32 my-8" id="contact">
-          <div className="flex flex-col items-center justify-center rounded-lg p-16 bg-card shadow-bl-custom w-fit mx-auto">
+          <div className="flex flex-col items-center justify-center rounded-lg p-16 bg-card shadow-bl-custom w-[75%] mx-auto">
             <h2 className="text-[32px] font-bold mb-4"><span className="text-gray-500">/</span> Contact</h2>
             <p>Thank you for visiting my personal website. I am eager to bring my expertise in Machine Learning and technical consulting to new challenges. If you are looking for a dedicated professional to join your team, please feel free to contact me at <a className="text-gray-400 underline" href="mailto:pbarbanchom@gmail.com">pbarbanchom@gmail.com</a>. I look forward to discussing how my skills can contribute to your projects.</p>
           </div>
