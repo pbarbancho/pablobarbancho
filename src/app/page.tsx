@@ -121,6 +121,17 @@ export default function Home() {
         </section>
         <section className="px-4 lg:px-32" id="certifications">
           <h2 className="text-[48px] lg:text-[64px] font-bold my-8"><span className="text-gray-500">/</span> Certifications</h2>
+          <div className="flex flex-col lg:flex-row items-center justify-left rounded-lg p-8 lg:p-16 bg-card bg-opacity-25 shadow-bl-custom w-fit mx-auto my-8 space-x-4 lg:space-x-8 space-y-8 lg:space-y-0">
+            <Image src='/icons/datacamp.png' width={150} height={150} alt="DataCamp" />
+            <div className="flex space-y-4 lg:space-y-0 flex-col">
+              <h3 className="text-[32px] font-bold">Data Scientist Associate</h3>
+              
+                <a href="https://www.datacamp.com/certificate/DSA0014669975239" target="_blank" rel="noopener noreferrer" className="italic my-4">
+                  <p className="italic">DataCamp <span className="select-none text-[12px]">🔗</span></p>
+                </a>
+              <p>I obtained this certification after demonstrating skills and knowledge in key areas of data analysis, including data management, exploratory analysis, statistical experimentation, modeling, programming for data science, and communication and visualization of results. The evaluation process included an adaptive theory exam and a practical test where I solved a real-world problem, applying data cleansing techniques, validation, metrics calculation, and supervised and unsupervised modeling.</p>
+            </div>
+          </div>
           <div className="flex flex-col lg:flex-row items-center justify-left rounded-lg p-8 lg:p-16 bg-card bg-opacity-25 shadow-bl-custom w-fit mx-auto lg:space-x-8 space-y-8 lg:space-y-0">
             <Image src='/icons/datacamp.png' width={150} height={150} alt="DataCamp" />
             <div className="flex space-y-4 lg:space-y-0 flex-col">
